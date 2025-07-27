@@ -31,8 +31,8 @@ python manage.py migrate
 Criando e modificando a senha de um super usuário Django
 
 ```
-python manage.py createsuperuser
-python manage.py changepassword USERNAME
+python manage.py createsuperuser           # Cria conta admin
+python manage.py changepassword USERNAME   # Modifica senhaf
 ```
 
 Trabalhando com o model do Django
